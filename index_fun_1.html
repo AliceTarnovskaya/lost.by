@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>[LOST - Fun] Веб-разработка, онлайн-обучение</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav__logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <i class="fas fa-bars" id="button"></i>
+                <script>
+                    $('#button').click(function() {
+                        $("#button").css("display", "none");
+                        $(".nav__menu").css("display", "flex");
+                    });
+                </script>
+                <ul class="nav__menu">
+                    <li>
+                        <a class="nav__link" href="index_fun.html">Развлечения и образование</a>
+                        <ul class="nav__submenu">
+                            <li><a href="index_fun_1.html">Веб-разработка, онлайн-обучение</a></li>
+                            <li><a href="index_fun_2.html">Концерты в Минске</a></li>
+                            <li><a href="index_fun_3.html">Адукар - что, зачем и как</a></li>
+                            <li><a href="index_fun_4.html">Кино в Минске</a></li>
+                            <li><a href="index_fun_5.html">Arzamas - сайт о людях</a></li>
+                            <li><a href="index_fun_6.html">Как отдохнуть активно?</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="index_psychology.html">Психология</a>
+                        <ul class="nav__submenu">
+                            <li><a href="index_psychology_1.html">Зашкаливают эмоции</a></li>
+                            <li><a href="index_psychology_2.html">Выбор психолога</a></li>
+                            <li><a href="index_psychology_3.html">Психолог для подростков</a></li>
+                            <li><a href="index_psychology_4.html">Домашнее насилие</a></li>
+                            <li><a href="index_psychology_5.html">Полюби себя</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <li>
+                            <a class="nav__link" href="index_alone.html">Один дома</a>
+                            <ul class="nav__submenu">
+                                <li><a href="index_alone_1.html">Сумасшедшие поступки</a></li>
+                                <li><a href="index_alone_2.html">Рецепты дял студентов</a></li>
+                            </ul>
+                        </li>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="index_work.html">Финансы и работа</a>
+                        <ul class="nav__submenu">
+                            <li><a href="index_work_1.html">31 способ сэкономить деньги</a></li>
+                            <li><a href="index_work_2.html">Как написать резюме</a></li>
+                            <li><a href="index_work_3.html">Как начать инвестировать с нуля с малой суммой денег</a></li>
+                            <li><a href="index_work_4.html">Семейный бюджет и правильное отношение к деньгами</a></li>
+                            <li><a href="index_work_5.html">Берём кредит правильно: 9 правил</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="index_health.html">Здоровье</a>
+                        <ul class="nav__submenu">
+                            <li><a href="index_health_1.html">Как собрать домашнюю аптечку?</a></li>
+                            <li><a href="index_health_2.html">Первая помощь</a></li>
+                            <li><a href="index_health_3.html">Основные правила интимной гигиены</a></li>
+                            <li><a href="index_health_4.html">Йога для начинающих</a></li>
+                            <li><a href="index_health_5.html">Здоровая диета</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="index_law.html">Закон</a>
+                        <ul class="nav__submenu">
+                            <li><a href="index_law_1.html">Шумят соседи</a></li>
+                            <li><a href="index_law_2.html">Гражданский кодекс</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="funarticle1">
+            <img class="funarticle1__bg" src="img/fun/funartice1_bg.jpg" alt="bg">
+            <div class="container funarticle1__container">
+                <div class="funarticle1__title">
+                    <h1>Кто такой веб-разработчик?</h1>
+                    <p>Веб-разработчик разрабатывает сайт на языках <span>HTML</span>, <span>CSS</span> и
+                        <span>JavaScript</span>. Создаёт интерфейсы с помощью библиотеки <span>React</span>. Настраивает
+                        <span>Git</span>, чтобы работать в команде, и <span>Webpack</span>, чтобы собирать файлы проекта автоматически. Веб-разработчик разбирается и в устройстве сервера: может настроить <span>Nginx</span> и запрограммировать сервер на
+                        <span>Node.js</span>.
+                    </p>
+                </div>
+                <div class="funarticle1__salary">
+                    <h2>«Все говорят про веб-разработку, но никто не говорит про условия труда», — скажете вы и зададите вопрос. —</h2>
+                    <img src="img/fun/funarticle1_salary.jpg" alt="photo">
+                    <p>Средняя зарплата веб-разработчика в Беларуси составляет около <span>1500 BYN</span>
+                        <a href="https://by.trud.com/belarus/salary/304581/67314.html" target="_blank">(источник)</a>
+                    </p>
+                    <p>В Белорусском "рае программиста", то есть ПВТ, зарплата JS-разрбаточкика начинается с <span>1050
+                            BYN</span> а с опытом выростает до <span>3700 BYN</span> <a href="https://tech.onliner.by/2019/05/21/park-31">(источник)</a></p>
+                    <p>Однако же стоит заметить, что у зарплаты веб-разработка, как и любого программиста, нет предела. Всё зависит от ваших умений и желания учиться новому</p>
+                </div>
+                <div class="funarticle1__motivation">
+                    <p>Да, эти цифры действительно выше средней зарплаты по стране, <span>НО</span></p>
+                    <ul>
+                        <li>
+                            <div class="funarticle1__point">
+                                <p>1</p>
+                            </div>
+                            <div>
+                                <span>Объем работы</span>. Представим, вы сотрудник крупной компании, и страшно представить, с каким объемом данных вам придется работать и неизвестно сколько времени это займет
+                            </div>
+                        </li>
+                        <li>
+                            <div class="funarticle1__point">
+                                <p>2</p>
+                            </div>
+                            <div>
+                                <span>График</span>. График в такой профессии ненормированный. То слишком много работы, что времени доделать не хватает, то наоборот, работы нет – затишье. В таком случае ни один программист от такого не застрахован
+                            </div>
+                        </li>
+                        <li>
+                            <div class="funarticle1__point">
+                                <p>3</p>
+                            </div>
+                            <div>
+                                <span>Конкуренция</span>. Сейчас все думают, что программисты очень востребованы, это правда, но в таком случае программистов становится все больше и больше. В такой ситуации срабатывает система “нарабатывания” клиентов.
+                                Если вы себя зарезервировали как хорошего специалиста и при этом с приемлемыми ценами на свои услуги, то по отзывам можно набрать очень хорошую клиентскую базу, но к сожалению на это уходит всегда слишком много времени,
+                                может год, может два, а то и вовсе несколько лет
+                            </div>
+                        </li>
+                        <li>
+                            <div class="funarticle1__point">
+                                <p>4</p>
+                            </div>
+                            <div>
+                                <span>Образ жизни</span>. В профессии программиста образ жизни всегда пассивный. Отталкиваясь от этого следуют разные проблемы со здоровьем: позвоночник страдает в первую очередь, за ним уже и ослабление мышц и так далее.
+                                Но больше всего страдает зрение. Глаза в постоянном напряжении от экрана, цифр, букв и множества символов, а тут и до падения зрения не далеко
+                            </div>
+                        </li>
+                        <li>
+                            <div class="funarticle1__point">
+                                <p>5</p>
+                            </div>
+                            <div>
+                                <span>Лингвистическая сторона</span>. Так как во многих работах используются англоязычные источники
+                        </li>
+                    </ul>
+                    <p>Но все эти минусы невилируются <span>мотивацией</span>, которая <span>обязана быть</span> у каждого, кто решился пойти в програмирование, иначе придётся очень рано столкнуться с <span>выгоранием</span> и
+                        <span>отсутствием мотиации</span>, что вполне вероятно в скором времени приведёт к смене рода деятельности
+                    </p>
+                    </div>
+                    <div class="funarticle1__courses">
+                        <p>Если вы решили, что вы прирождённый веб-разработк, а минусы этой профессии для вас не преграды, то поздравляем со вступлением в новый этап - обучение</p>
+                        <p>В наше время, помимо колледжей и ВУЗов, существует множество как онлайн, так и офлайн школ программирования. Сейчас мы хотим показать вам несколько из самых известных онлайн-школ для первичного ознакомления</p>
+                        <div class="funarticle1__warning">
+                            <img src="img/excl.png" alt="excl">
+                            <p>Мы ни в коем случае не призываем вас к обучению в какой-либо из школ, ибо наша цель - это донести до вас объективную информацию и оставить её на ваше самостоятельное размышление
+                            </p>
+                        </div>
+                        <ul>
+                            <li>Первый вариант - это <a href="https://praktikum.yandex.ru/">Яндекс Практикум</a>. Вероятно, вам в глаза бросилось название. Да, это действительно школа от Яндекса, главной в СНГ IT-компании. Помимо веб-разработки они также
+                                обучают дизайну, маркетингу, аналитике и прочему, о чём мы поговорим в других статьях</li>
+                            <li>Также ваше внимание может привлечь платформа <a href="https://www.udemy.com/">Udemy</a>. В чём её особенность? Это не "школа" в привычном нам понимании, а, скорее, магазин образовательных курсов. За небольшую цену здесь можно
+                                получить курс в любом IT-направлнеии и начать самообразование. Стоит отметить, что это явно не вариант для тех, кто не может самостоятельно изучать материал</li>
+                            <li>Третий вариант также создан для самоучек. На сайте <a href="https://learn.javascript.ru/">learn.javascript.ru</a> у вас есть возможность самостяотельно научиться писать на JavaScript, который является главным языком программирования
+                                в веб-разработке</li>
+                            <li>В этот пункт вошли сразу 3 школы, так как они, по сути, ничем, кроме названия, не отличаются. Это <a href="https://skillfactory.ru/">SkillFactory</a>, <a href="https://skillbox.ru/">Skillbox</a> и <a href="https://gb.ru/">GeekИrains</a>.
+                                Когда-то именно эти школы выкупили всё инфопространство и ни один заход в интернет не обходился без их упоминания. Хорошо это или плохо - судите сами</li>
+                        </ul>
+                    </div>
+                    <div class="funarticle1__conclusion">
+                        <p>Прочитав подробнее про все эти школы, вы, если даже не выберете одну из них, то поймёте, как устроено онлайн-образование в IT и сможете самостоятельно выбрать себе школу. Не исключено, что вы решите, что онлайн-образование вам
+                            не подходит и начнёте засмартиваться на традиционный подход
+                        </p>
+                        <p>Как бы не сложилась ситуация, мы будем считать, что сделали мир лучше, если мы поможем хотя бы одному человеку</p>
+                        <p>А всем, кто сейчас выбирает себе профессию, советуем следовать лишь своему разуму, а не мнению окружающих. Помните, что ваша жизнь только в ваших руках!</p>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <a href="https://www.instagram.com/alice_tarnovskaya/">Instagram</a>
+                <a href="#">Telegram</a>
+                <a href="mailto:Email_123@gmail.com">Email_123@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
