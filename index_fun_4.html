@@ -25,12 +25,20 @@
                 </div>
                 <i class="fas fa-bars" id="button"></i>
                 <script>
-                    $('#button').click(function() {
+                    $('#button').click(function () {
                         $("#button").css("display", "none");
                         $(".nav__menu").css("display", "flex");
                     });
                 </script>
                 <ul class="nav__menu">
+                    <li>
+                        <a class="nav__link" href="index_important.html">Важно</a>
+                        <ul class="nav__submenu">
+                            <li><a href="index_important_1.html">Белтелеком, справочно-информационные услуги</a></li>
+                            <li><a href="index_important_2.html">Безопасное поведение в интернете</a></li>
+                            <li><a href="index_important_3.html">Что важно знать о страховании?</a></li>
+                        </ul>
+                    </li>
                     <li>
                         <a class="nav__link" href="index_fun.html">Развлечения и образование</a>
                         <ul class="nav__submenu">
@@ -53,20 +61,21 @@
                         </ul>
                     </li>
                     <li>
-                        <li>
-                            <a class="nav__link" href="index_alone.html">Один дома</a>
-                            <ul class="nav__submenu">
-                                <li><a href="index_alone_1.html">Сумасшедшие поступки</a></li>
-                                <li><a href="index_alone_2.html">Рецепты дял студентов</a></li>
-                            </ul>
-                        </li>
+                    <li>
+                        <a class="nav__link" href="index_alone.html">Один дома</a>
+                        <ul class="nav__submenu">
+                            <li><a href="index_alone_1.html">Сумасшедшие поступки</a></li>
+                            <li><a href="index_alone_2.html">Рецепты дял студентов</a></li>
+                        </ul>
+                    </li>
                     </li>
                     <li>
                         <a class="nav__link" href="index_work.html">Финансы и работа</a>
                         <ul class="nav__submenu">
                             <li><a href="index_work_1.html">31 способ сэкономить деньги</a></li>
                             <li><a href="index_work_2.html">Как написать резюме</a></li>
-                            <li><a href="index_work_3.html">Как начать инвестировать с нуля с малой суммой денег</a></li>
+                            <li><a href="index_work_3.html">Как начать инвестировать с нуля с малой суммой денег</a>
+                            </li>
                             <li><a href="index_work_4.html">Семейный бюджет и правильное отношение к деньгами</a></li>
                             <li><a href="index_work_5.html">Берём кредит правильно: 9 правил</a></li>
                         </ul>
@@ -92,7 +101,7 @@
             </nav>
         </div>
     </header>
-    <main>
+    <main id="fun">
         <section class="funarticle4">
             <img class="funarticle4__bg" src="img/fun/funarticle4_bg.jpg" alt="bg">
             <div class="container funarticle4__container">
